@@ -1,0 +1,7 @@
+twist_mux:
+  ros__parameters:
+    topics:
+      navigation:
+        topic   : cmd_vel
+        timeout : 1.0
+        priority: 10
