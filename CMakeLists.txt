@@ -37,4 +37,9 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(
+  DIRECTORY launch config
+  DESTINATION share/urg_node2
+)
+
 ament_package()
